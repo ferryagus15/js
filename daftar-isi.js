@@ -213,10 +213,10 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Menampilkan ' + postTitle.length + ' posts<br/></span>'; }
+      var tocNote = '<span class="toc-note">Menampilkan ' + postTitle.length + ' Artikel<br/></span>'; }
    else {
-      var tocNote = '<span class="toc-note">Menampilkan ' + numDisplayed + ' posts labeled \'';
-      tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
+      var tocNote = '<span class="toc-note">Menampilkan ' + numDisplayed + ' Artikel berlabel \'';
+      tocNote += postFilter + '\' dari '+ postTitle.length + ' total Artikel <br/></span>';
    }
    tocdiv.innerHTML = tocNote + tocTable;
 } // end of displayToc
